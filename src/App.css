@@ -1,0 +1,98 @@
+.main-div {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.playOnline {
+  background-color: #e4ca56;
+  font-size: 55px;
+  outline: none;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 6px 10px;
+  border: none;
+}
+
+.wait {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.water-background {
+  background-color: #4b495f;
+}
+
+.game-heading {
+  padding: 7px 90px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
+  word-spacing: 10px;
+}
+
+.square-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.finished-state {
+  padding: 0%;
+  margin: 0%;
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.against-state {
+  padding: 0%;
+  margin: 0%;
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.move-detection {
+  width: 37%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: 50px;
+  width: 160px;
+  font-weight: 600;
+  font-size: 19px;
+  font-family: system-ui, -apple-system, Roboto, Oxygen, Ubuntu;
+  background-color: #4b495f;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.current-move-cross {
+  background-color: #3fa7f0 !important;
+}
+
+.current-move-circle {
+  background-color: #dd7f9f !important;
+}
