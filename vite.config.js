@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
-      input: 'index.html'  // Adjust this path if your index.html is in a different location
+      input: '/path/to/index.html'  // Adjust this path if your index.html is in a different location
     }
   }
 });
